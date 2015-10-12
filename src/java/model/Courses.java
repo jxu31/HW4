@@ -2,8 +2,6 @@
 package model;
 
 
-
-
 public class Courses {
     
     private int courseid;
