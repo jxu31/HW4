@@ -76,7 +76,7 @@ public class ReadQuery {
                 course.setCoursename(this.results.getString("coursename"));
                 course.setSemester(this.results.getString("semester"));
                 course.setCredit(this.results.getInt("credit"));
-                
+          
                 table +="<tr>";
                 table +="<td>";
                 table+= course.getCourseid();
