@@ -19,7 +19,7 @@ public class ReadQuery {
     private ResultSet results;
     
     public ReadQuery(){
-        
+     
     Properties props = new Properties();    
     InputStream instr = getClass().getResourceAsStream("dbConn.properties");
         try {
@@ -49,6 +49,7 @@ public class ReadQuery {
         }
         
     }   
+    
     
     public void doRead(){
         
