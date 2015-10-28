@@ -117,6 +117,9 @@ public class ReadQuery {
                 table += "</td>";
                 table +="</tr>";
                 
+                table +="<td>";
+                table +="<a href = delete?courseid="+course.getCourseid() + "> Delete </a>";
+                        
             }
         } catch (SQLException ex) {
             Logger.getLogger(ReadQuery.class.getName()).log(Level.SEVERE, null, ex);
