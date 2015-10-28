@@ -11,5 +11,9 @@
     <body>
         <h1>My Courses</h1>
         <%= table %>
+        
+        <br><br>
+        
+        <a href ="add"> Add a New Course</a>
     </body>
 </html>
