@@ -13,7 +13,7 @@
          <link rel="stylesheet" type="text/css" href="format.css"/>
     </head>
     <body>
-        <h1>Add A New Friend</h1>
+        <h1>Add A New Course</h1>
         
         <form name="addForm" action="addCourses" method="get" >
             <label> Course Name:</label>
