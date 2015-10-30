@@ -54,7 +54,7 @@ public class ReadQuery {
     public void doRead(){
         
         try {
-            String query = "Select * from courses";
+            String query = "Select * from courses Order by courseid";
             
             PreparedStatement ps = conn.prepareStatement(query);
             this.results = ps.executeQuery();
