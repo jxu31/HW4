@@ -12,11 +12,10 @@
     <body>
         <h1>My Courses</h1>
         
-        <div id="table">
+       
         <%= table %>
         
         <br><br>
-        </div>
         
         <a href ="add"> Add a New Course</a>
     </body>
