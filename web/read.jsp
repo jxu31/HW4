@@ -18,5 +18,7 @@
         <br><br>
         
         <a href ="add"> Add a New Course</a>
+        <br><br>
+        <a href="search.jsp"> Search Courses</a>
     </body>
 </html>
