@@ -124,7 +124,7 @@ table +="<table>";
                 table += "</td>";
                 
                  table +="<td>";
-                table +="<a href = delete?courseid="+course.getCourseid() + "> Delete </a>";
+                table += "<a href=update?courseid=" + course.getCourseid()+ "> Update </a>" + "<a href = delete?courseid="+course.getCourseid() + "> Delete </a>";
                 table +="</td>";       
                 
                 table +="</tr>";

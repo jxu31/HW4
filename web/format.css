@@ -3,8 +3,8 @@ body{
 }
 
 table{
-    background-color:white;
-
+    background-color:#FFFF99;
+    border-collapse: collapse;
 }
 
 th{
@@ -22,17 +22,19 @@ table, td, th {
     border: 1px solid white;
 }
 
+input [readonly] {
+    background-color:gray;
+}
 form{
-    height:150px;
-    width: 200px;
+
     background-color: #F08080;
- 
+    width: 300px;
 }
 
 label{
    background-color: #F08080;
     color:#FFFFFF;
-    width:100px;   
+  
 }
 
 h1{
@@ -41,4 +43,22 @@ h1{
 
 a{
     color:#696969;
+}
+
+.right {
+    text-align:right;
+}
+
+.add td {
+border:none;
+height:25px;
+padding:10px;
+font-weight:bold;
+}
+
+.update td{
+border:none;
+height:25px;
+padding:10px;
+font-weight:bold;    
 }
