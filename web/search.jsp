@@ -12,7 +12,15 @@
         <title>Search Courses</title>
         <link rel="stylesheet" type="text/css" href="format.css"/>
     </head>
+    
     <body>
+        <div class="wrap">
+
+            <%@ include file="includes/header.jsp" %>
+
+            <%@ include file="includes/menu.jsp" %>
+
+            <div class="main">
         <h1>Search Courses</h1>
         <form name="searchForm" action="search" method="get">
             <input type="text" name="searchVal" value="">
@@ -20,5 +28,11 @@
             <input type="submit" name="submit" value="Search">
             
         </form>
+          </div>
+
+
+            <%@ include file="includes/footer.jsp" %>
+
+        </div>
     </body>
 </html>

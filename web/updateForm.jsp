@@ -16,6 +16,14 @@
          <link rel="stylesheet" type="text/css" href="format.css"/>
     </head>
     <body>
+          <div class="wrap">
+
+            <%@ include file="includes/header.jsp" %>
+
+            <%@ include file="includes/menu.jsp" %>
+
+            <div class="main">
+        
          <h1>Update A New Course Record</h1>
         
         <form name="updateForm" action="updateCourse" method="get" >
@@ -42,12 +50,17 @@
                 </tr>
              </table>
                     <br>
-                    <input type="reset" name="reset" value="Clear" />
+                    <input type="reset" name="clear" value="Clear" />
                     <input type="submit" name="submit" value="Update"/>
     
         </form>
            
-            
+              </div>
+
+
+            <%@ include file="includes/footer.jsp" %>
+
+        </div>
            
            
         

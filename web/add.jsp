@@ -13,6 +13,13 @@
          <link rel="stylesheet" type="text/css" href="format.css"/>
     </head>
     <body>
+        <div class="wrap">
+
+            <%@ include file="includes/header.jsp" %>
+
+            <%@ include file="includes/menu.jsp" %>
+
+            <div class="main">
         <h1>Add A New Course</h1>
         
         <form name="addForm" action="addCourses" method="get" >
@@ -27,7 +34,14 @@
             <br>
             <input type="submit" name="submit" value="Submit"/>
         </form>
-        
+         </div>
+
+
+            <%@ include file="includes/footer.jsp" %>
+
+        </div>
+           
+             
         
     </body>
 </html>

@@ -11,48 +11,62 @@ body{background-color:#D2B48C;}
 .footer{text-align:left; padding:25px;}
 
 
+body{
+      background-color:#D2B48C;
+      margin: 8px;
+      border-color: white;
+}
+
 table{
-    background-color:#FFFF99;
-    border-collapse: collapse;
+    background-color:white;
+    width: 700px;
+    padding: 5px;
 }
 
 th{
     background-color: #FFFF99;
     color:#696969;
-
+   
 }
 
 td{
     background-color: #F08080;
     color:#FFFFFF;
-
+   
 }
 table, td, th {
     border: 1px solid white;
 }
 
-input [readonly] {
-    background-color:gray;
-}
 form{
-
-    background-color: #F08080;
+    height:150px;
     width: 300px;
+    padding:15px;
+    
+ 
 }
 
 label{
-    background-color: #F08080;
-    color:#FFFFFF;
-
+   
+    color:#696969;
+    width:100px;      
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 400px;
+    text-align: left; 
 }
+
+
+a {color: #696969;
+}
+
 
 h1{
-    color:#696969;
+    color:black;
 }
 
-a{
-    color:#696969;
-}
+
 
 .right {
     text-align:right;
