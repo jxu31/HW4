@@ -1,4 +1,9 @@
-body{background-color:#D2B48C;}
+body{
+      background-color:#D2B48C;
+      margin: 8px;
+      border-color: white;
+}
+
 
 .wrap {text-align:center; width:90%; margin:0 auto; border:1px solid black; margin-top:25px;}
 
@@ -11,11 +16,6 @@ body{background-color:#D2B48C;}
 .footer{text-align:left; padding:25px;}
 
 
-body{
-      background-color:#D2B48C;
-      margin: 8px;
-      border-color: white;
-}
 
 table{
     background-color:white;
