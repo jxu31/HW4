@@ -77,13 +77,6 @@ h1{
     text-align:right;
 }
 
-.add td {
-    border:none;
-    height:25px;
-    padding:10px;
-    font-weight:bold;
-}
-
 .update td{
     border:none;
     height:25px;
