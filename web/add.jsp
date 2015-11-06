@@ -23,7 +23,7 @@
         <h1>Add A New Course</h1>
         
         <form name="addForm" action="addCourses" method="get" >
-            <label> Course Name:</label>
+            <label> Name:</label>
             <input type="text" name="coursename" value=""/>
             <br>
              <label> Semester:</label>

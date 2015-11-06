@@ -31,7 +31,7 @@
             <table class="update">
                  <tr>
                 <td class="right">Course ID:</td>
-                <td> <input type="text" name="id" value="<%= course.getCourseid() %>" readonly/></td>
+                <td > <input id="courseid" type="text" name="id" value="<%= course.getCourseid() %>" readonly/></td>
                 </tr>
                 <tr>
                 <td class="right">Course Name:</td>
@@ -54,7 +54,9 @@
                     <input type="submit" name="submit" value="Update"/>
     
         </form>
+                    <br><br><br>
            
+                    
               </div>
 
 
