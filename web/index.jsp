@@ -9,11 +9,31 @@
         
     </head>
     <body>
-        <h1>My Courses Database</h1>
         
-        <a href="read">View All Courses</a>
-        <br><br>
-        <a href="search.jsp"> Search Courses</a>
+        
+        
+        <div class="wrap">
+            
+            <%@ include file="includes/header.jsp" %>
+            
+            <%@ include file="includes/menu.jsp" %>
+            
+            <div class="main">
+                
+           
+            
+            <h1>My Courses Database</h1>
+        
+            <a href="read">View All Courses</a>
+            <br><br>
+            <a href="search.jsp"> Search Courses</a>
+       
+             </div>
+        
+        
+        <%@ include file="includes/footer.jsp" %>
+        
+        </div>
         
         
     </body>
