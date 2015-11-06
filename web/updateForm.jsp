@@ -50,7 +50,7 @@
                 </tr>
              </table>
                     <br>
-                    <input type="reset" name="clear" value="Clear" />
+                  
                     <input type="submit" name="submit" value="Update"/>
     
         </form>

@@ -33,6 +33,7 @@
             <input type="text" name="credit" value=""/>
             <br>
             <input type="submit" name="submit" value="Submit"/>
+             <input type="reset" name="clear" value="Clear" />
         </form>
          </div>
 
